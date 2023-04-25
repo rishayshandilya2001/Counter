@@ -1,0 +1,43 @@
+
+body
+{
+    background-color: #e52165;
+}
+
+
+.mainbox
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+
+.counterbox
+{
+    padding: 4rem;
+    color: #e52165;
+    background-color: #0d1137;
+    width: 40%;
+    border-radius: 2rem;
+    
+}
+
+.btn
+{
+    background-color: #e52165;
+    color: #0d1137;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+@media(max-width:1200px)
+{
+.counterbox
+{
+    color: #e52165;
+    background-color: #0d1137;
+    width: 80%;
+    
+}
+}
